@@ -1,0 +1,106 @@
+#nav{
+    flex-direction: column;
+}
+
+#logo{
+    margin: 3px 16px;
+}
+
+
+#logo img{
+    height: 45px;
+    margin: 2px 7px;
+}
+
+#home{
+    height: 350px;
+    padding: 3px 48px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+#nav ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    margin-bottom: 10px;
+}
+
+#nav::before {
+ border-top-left-radius: 0px;
+ border-top-right-radius: 0px;
+}
+
+
+#home::before{
+    height: 450px;
+    /* width: 100%; */
+}
+
+
+#services{
+    flex-direction: column;
+}
+
+.box{
+    margin-bottom: 15px;
+}
+
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+#clients{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#clients img{
+    height: 34%;
+    width: 14%;
+}
+
+.client-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#client-section::before{
+    height: 30%;
+}
+
+#services .box img{
+    width: 100%;
+}
+
+#services h2{
+    font-size: 1.3rem;
+}
+
+#services p{
+    font-size: 0.8rem;
+}
+
+#services-container h1{
+    font-size: 2rem;
+}
+
+.form-group label{
+    font-size: 1.3rem;
+}
+
+footer{
+    font-size: 0.5rem;
+}
+
