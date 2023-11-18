@@ -1,1 +1,1 @@
-#jetsetwee.netlify.app
+https://jetsetwee.netlify.app
